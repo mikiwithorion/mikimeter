@@ -6,7 +6,7 @@ import pandas as pd
 st.title("ペット当番アプリ（ver1）")
 
 # ① メンバー登録ブロック
-st.header("① 当番メンバーを登録しよう！！")
+st.header("① 当番メンバーを登録しよう！！！")
 default_members = ["A", "B", "C", "D"]
 members = st.text_input("当番メンバー（カンマで区切ってね）", ", ".join(default_members))
 member_list = [m.strip() for m in members.split(",") if m.strip()]
